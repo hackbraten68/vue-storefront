@@ -11,7 +11,7 @@ function onCreate(settings: Setttings) {
 const { createApiClient } = apiClientFactory<Setttings, Endpoints>({
   onCreate,
   api: {
-
+    url: 'https://demo-ct.vuestorefront.io/de'
   }
 });
 
